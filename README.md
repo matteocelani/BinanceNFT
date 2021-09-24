@@ -6,7 +6,7 @@ If you like this project please support the developer and make a donation: <b>0x
 ## How to use
 
 To use this simple site you need to disable Cross-Origin Resource Sharing (CORS)
-There are two ways to visit the site. It is currently hosted on AWS and can be reached via this <a href="#" target="_blank"> link </a>
+There are two ways to visit the site. It is currently hosted on AWS and can be reached via this <a href="https://main.d2r9mmbhw2cevi.amplifyapp.com" target="_blank"> link </a>
 
 If you want to use it locally, start it with  ``` npm ```
 
