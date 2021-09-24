@@ -1,0 +1,11 @@
+export default setCacheHas;
+/**
+ * Checks if `value` is in the array cache.
+ *
+ * @private
+ * @name has
+ * @memberOf SetCache
+ * @param {*} value The value to search for.
+ * @returns {number} Returns `true` if `value` is found, else `false`.
+ */
+declare function setCacheHas(value: any): number;

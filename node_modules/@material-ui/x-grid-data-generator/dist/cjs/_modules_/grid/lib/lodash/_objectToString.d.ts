@@ -1,0 +1,9 @@
+export default objectToString;
+/**
+ * Converts `value` to a string using `Object.prototype.toString`.
+ *
+ * @private
+ * @param {*} value The value to convert.
+ * @returns {string} Returns the converted string.
+ */
+declare function objectToString(value: any): string;

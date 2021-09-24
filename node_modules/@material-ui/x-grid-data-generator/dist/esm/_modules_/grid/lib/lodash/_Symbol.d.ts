@@ -1,0 +1,3 @@
+export default Symbol;
+/** Built-in value references. */
+declare var Symbol: any;

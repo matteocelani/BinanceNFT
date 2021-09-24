@@ -1,0 +1,9 @@
+export default baseIsArguments;
+/**
+ * The base implementation of `_.isArguments`.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an `arguments` object,
+ */
+declare function baseIsArguments(value: any): boolean;

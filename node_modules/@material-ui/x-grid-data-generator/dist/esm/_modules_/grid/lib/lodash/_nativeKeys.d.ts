@@ -1,0 +1,2 @@
+export default nativeKeys;
+declare var nativeKeys: Function;

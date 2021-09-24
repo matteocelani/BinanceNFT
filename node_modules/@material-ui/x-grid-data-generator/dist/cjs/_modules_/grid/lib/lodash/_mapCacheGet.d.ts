@@ -1,0 +1,11 @@
+export default mapCacheGet;
+/**
+ * Gets the map value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf MapCache
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+declare function mapCacheGet(key: string): any;

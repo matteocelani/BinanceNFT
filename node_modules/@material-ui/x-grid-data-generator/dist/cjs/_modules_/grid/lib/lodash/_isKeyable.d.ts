@@ -1,0 +1,9 @@
+export default isKeyable;
+/**
+ * Checks if `value` is suitable for use as unique object key.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is suitable, else `false`.
+ */
+declare function isKeyable(value: any): boolean;

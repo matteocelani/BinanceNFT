@@ -1,0 +1,2 @@
+export default Map;
+declare var Map: any;

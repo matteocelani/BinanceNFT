@@ -1,0 +1,9 @@
+export default isMasked;
+/**
+ * Checks if `func` has its source masked.
+ *
+ * @private
+ * @param {Function} func The function to check.
+ * @returns {boolean} Returns `true` if `func` is masked, else `false`.
+ */
+declare function isMasked(func: Function): boolean;

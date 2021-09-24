@@ -1,0 +1,13 @@
+export default hashClear;
+/**
+ * Removes all key-value entries from the hash.
+ *
+ * @private
+ * @name clear
+ * @memberOf Hash
+ */
+declare function hashClear(): void;
+declare class hashClear {
+    __data__: any;
+    size: number;
+}

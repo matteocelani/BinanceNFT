@@ -1,0 +1,3 @@
+export default root;
+/** Used as a reference to the global object. */
+declare var root: any;

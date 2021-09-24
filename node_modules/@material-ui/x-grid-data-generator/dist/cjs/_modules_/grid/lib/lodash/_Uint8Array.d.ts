@@ -1,0 +1,3 @@
+export default Uint8Array;
+/** Built-in value references. */
+declare var Uint8Array: any;

@@ -1,0 +1,9 @@
+export default baseIsTypedArray;
+/**
+ * The base implementation of `_.isTypedArray` without Node.js optimizations.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
+ */
+declare function baseIsTypedArray(value: any): boolean;

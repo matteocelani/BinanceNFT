@@ -1,0 +1,9 @@
+export default baseGetTag;
+/**
+ * The base implementation of `getTag` without fallbacks for buggy environments.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @returns {string} Returns the `toStringTag`.
+ */
+declare function baseGetTag(value: any): string;

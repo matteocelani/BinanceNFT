@@ -1,0 +1,2 @@
+export default Promise;
+declare var Promise: any;

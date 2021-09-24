@@ -1,0 +1,2 @@
+export default nativeCreate;
+declare var nativeCreate: any;

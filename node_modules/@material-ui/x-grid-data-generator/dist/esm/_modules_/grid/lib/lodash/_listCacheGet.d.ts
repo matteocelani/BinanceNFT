@@ -1,0 +1,11 @@
+export default listCacheGet;
+/**
+ * Gets the list cache value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf ListCache
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+declare function listCacheGet(key: string): any;

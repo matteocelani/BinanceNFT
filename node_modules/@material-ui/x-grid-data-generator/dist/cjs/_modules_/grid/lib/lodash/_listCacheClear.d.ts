@@ -1,0 +1,13 @@
+export default listCacheClear;
+/**
+ * Removes all key-value entries from the list cache.
+ *
+ * @private
+ * @name clear
+ * @memberOf ListCache
+ */
+declare function listCacheClear(): void;
+declare class listCacheClear {
+    __data__: any[];
+    size: number;
+}

@@ -1,0 +1,11 @@
+export default stackGet;
+/**
+ * Gets the stack value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf Stack
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+declare function stackGet(key: string): any;

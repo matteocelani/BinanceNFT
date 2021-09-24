@@ -1,0 +1,3 @@
+export default nodeUtil;
+/** Used to access faster Node.js helpers. */
+declare var nodeUtil: any;

@@ -1,0 +1,3 @@
+export default coreJsData;
+/** Used to detect overreaching core-js shims. */
+declare var coreJsData: any;

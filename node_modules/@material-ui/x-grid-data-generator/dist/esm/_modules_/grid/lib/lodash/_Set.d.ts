@@ -1,0 +1,2 @@
+export default Set;
+declare var Set: any;

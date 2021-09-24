@@ -1,0 +1,2 @@
+export default DataView;
+declare var DataView: any;

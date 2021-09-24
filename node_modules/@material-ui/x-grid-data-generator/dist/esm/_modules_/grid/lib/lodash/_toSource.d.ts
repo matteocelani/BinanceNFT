@@ -1,0 +1,9 @@
+export default toSource;
+/**
+ * Converts `func` to its source code.
+ *
+ * @private
+ * @param {Function} func The function to convert.
+ * @returns {string} Returns the source code.
+ */
+declare function toSource(func: Function): string;

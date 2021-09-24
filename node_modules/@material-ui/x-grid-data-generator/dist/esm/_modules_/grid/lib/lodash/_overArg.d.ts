@@ -1,0 +1,10 @@
+export default overArg;
+/**
+ * Creates a unary function that invokes `func` with its argument transformed.
+ *
+ * @private
+ * @param {Function} func The function to wrap.
+ * @param {Function} transform The argument transform.
+ * @returns {Function} Returns the new function.
+ */
+declare function overArg(func: Function, transform: Function): Function;

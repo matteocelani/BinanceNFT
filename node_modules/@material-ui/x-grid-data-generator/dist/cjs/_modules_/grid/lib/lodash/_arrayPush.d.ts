@@ -1,0 +1,10 @@
+export default arrayPush;
+/**
+ * Appends the elements of `values` to `array`.
+ *
+ * @private
+ * @param {Array} array The array to modify.
+ * @param {Array} values The values to append.
+ * @returns {Array} Returns `array`.
+ */
+declare function arrayPush(array: any[], values: any[]): any[];

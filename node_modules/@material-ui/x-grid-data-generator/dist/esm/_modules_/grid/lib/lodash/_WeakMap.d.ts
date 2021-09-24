@@ -1,0 +1,2 @@
+export default WeakMap;
+declare var WeakMap: any;
