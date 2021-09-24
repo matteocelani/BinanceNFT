@@ -21,7 +21,7 @@ ReactDOM.render(
 );
 
 ReactDOM.render(
-  <p>This site is <a href="https://github.com/matteocelani/BinanceNFT" target="_blank">open source </a><strong>Send a donation: 0x18Ca610d13d7639678927B20455f2a57C46aE078</strong></p>,
+  <p>This site is <a href="https://github.com/matteocelani/BinanceNFT" target="_blank">open source.</a><strong> Send a donation: 0x18Ca610d13d7639678927B20455f2a57C46aE078</strong></p>,
   document.getElementById('credits')
 );
 
