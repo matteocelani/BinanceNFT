@@ -1,17 +1,20 @@
 # BinanceNFT
+
 API call to Binance NFT to order Mystery Boxes
 
-If you like this project please support the developer and make a donation: <b>0x18Ca610d13d7639678927B20455f2a57C46aE078</b>
+## Deprecation notice ⚠️
+
+This project is no longer maintained. The Binance NFT API has been updated (?) and the code is no longer compatible.
 
 ## How to use
 
 To use this simple site you need to disable Cross-Origin Resource Sharing (CORS)
 There are two ways to visit the site. It is currently hosted on AWS and can be reached via this <a href="https://main.d2r9mmbhw2cevi.amplifyapp.com" target="_blank"> link </a>
 
-If you want to use it locally, start it with  ``` npm ```
-
+If you want to use it locally, start it with `npm`
 
 ### With NPM
+
 In the project directory, you can run:
 
 ### `npm start`
@@ -49,14 +52,20 @@ The results are randomly distributed but all fields can be sorted in ascending o
 
 The search returns only <b>Mystery boxes</b>.
 
-If you want to do other searches just edit the calls in ```src/core.js```
+If you want to do other searches just edit the calls in `src/core.js`
 
 You have to modify the body
-```javascript 
-body: "{\"category\":0,\"keyword\":\"" + event.target.value + "\",\"orderBy\":\"list_time\",\"orderType\":-1,\"page\":" + this.state.page + ",\"rows\":100}"
+
+```javascript
+body: '{"category":0,"keyword":"' +
+  event.target.value +
+  '","orderBy":"list_time","orderType":-1,"page":' +
+  this.state.page +
+  ',"rows":100}';
 ```
 
 You need to change the category number and select one of them:
+
 ```JSON
         "categoryList": [
             {

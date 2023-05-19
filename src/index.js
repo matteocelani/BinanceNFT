@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {Core} from './Core';
+import { Core } from './Core';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -21,7 +21,11 @@ ReactDOM.render(
 );
 
 ReactDOM.render(
-  <p>This site is <a href="https://github.com/matteocelani/BinanceNFT" target="_blank">open source.</a><strong> Send a donation: 0x18Ca610d13d7639678927B20455f2a57C46aE078</strong></p>,
+  <p>This site is <a href="https://github.com/matteocelani/BinanceNFT" target="_blank"
+    rel="noopener noreferrer"
+  >open source.</a>
+    <br />
+    <strong> This project is no longer maintained. The Binance NFT API has been updated (?) and the code is no longer compatible.</strong></p>,
   document.getElementById('credits')
 );
 
